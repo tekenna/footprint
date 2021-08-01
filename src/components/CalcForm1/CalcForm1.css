@@ -1,0 +1,124 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    background: transparent;
+    margin: 4rem auto;
+    max-width: 1000px;
+    height: 750px;
+    scroll-behavior: smooth;
+    border: 1px solid gray;
+    padding: 2rem;
+    overflow: scroll;
+    position: relative;
+    border-radius: 1rem;
+    
+}
+.form_heading{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem auto;
+}
+.h1{
+    color: teal;
+    text-align: center;
+}
+.small{
+    font-size: 1em;
+    color: gray;
+    text-align: center;
+}
+small{
+    text-align: center;
+}
+.form_user{
+    display: flex;
+    flex-direction: column;
+}
+.user_label{
+    margin-top: 1rem;
+    margin-bottom: 0.3rem;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: teal;
+}
+.form_user select{
+    height: 35px;
+    font-size: 1.3em;
+    color: teal;
+    margin-top: 0.5rem;
+}
+.user_input{
+    height: 40px;
+    padding: 0.5rem;
+    font-size: 1.5em;
+    border: none;
+    border-bottom: 2px solid gray;
+    letter-spacing: 0.1em;
+    color: gray;
+}
+.user_input:focus{
+    outline: none;
+    border-bottom: 3px solid teal;
+}
+.note{
+    margin-top: 2rem;
+}
+.form_questions{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0;
+}
+.form_q{
+    display: flex;
+    flex-direction: column;
+}
+.form_q>label{
+    font-size: 1.4em;
+    color: teal;
+    margin: 1rem 0;
+}
+.form_q input{
+    height: 30px;
+    width: 300px;
+    font-size: 1.3em;
+}
+.form_q select{
+    height: 30px;
+    width: 300px;
+    font-size: 1.3em;
+    color: teal;
+}
+.answer{
+    display: flex;
+    align-items: center;
+}
+.answer>label{
+    margin-right: 4rem;
+    font-size: 1.3em;
+    color: gray;
+}
+.answer>input{
+    width: 1rem;
+}
+.other{
+    font-size: 1.2em;
+    margin-top: 1rem;
+    color: gray;
+}
+.other>input{
+    height: 27px;
+    font-size: 1.1em;
+    width: 350px;
+    padding-left: 0.5rem
+}
+.btn{
+    padding: 0.3rem 0.5rem;
+    font-size: 1.3em;
+    text-transform: capitalize;
+    color: teal;
+    border-radius: 0.5rem;
+    align-self: center;
+    border: none;
+    cursor: pointer;
+}

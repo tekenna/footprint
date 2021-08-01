@@ -1,0 +1,70 @@
+.head{
+    display: flex;
+    height: 350px;
+    margin: 2rem auto;
+}
+.head>img{
+    width: 40%;
+}
+.heading{
+    width: 60%;
+    background: gold;
+}
+.heading>h1{
+    display: flex;
+    align-items: center;
+}
+.five{
+    font-size: 10em;
+    color: rgb(13, 44, 70);
+    margin-left : 2rem;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+    justify-content: space-evenly;
+}
+.text span{
+    font-size: 1.8em;
+    color: rgb(28, 61, 88);
+}
+@media screen and (max-width: 1500px) {
+    .text span{
+        font-size: 1em;
+    }
+    .five{
+        font-size: 7em;
+    }
+}
+@media screen and (max-width: 1100px) {
+    .text span{
+        font-size: 1em;
+    }
+    .five{
+        font-size: 7em;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .text span{
+        font-size: 1em;
+        line-height: 2.5rem;
+    }
+    .head{
+        height: 300px;
+        margin: 0;
+    }
+    .five{
+        font-size: 5em;
+    }
+
+    .head>img{
+        width: 30%;
+        height: 250px;
+    }
+    .heading{
+       height: 250px;
+    }
+}
+

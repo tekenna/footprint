@@ -1,0 +1,17 @@
+.result{
+    margin-top: 10rem;
+    background: steelblue;
+    text-align: center;
+    padding: 1.5rem;
+}
+.result>h1{
+    color: honeydew;
+    font-size: 50px;
+}
+.result>p{
+    background: honeydew;
+    width: 50%;
+    color: steelblue;
+    margin: auto;
+    font-size: 6em;
+}

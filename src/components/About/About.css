@@ -1,0 +1,27 @@
+.about{
+    margin: 3rem auto;
+}
+.about>h2{
+    font-size: 2em;
+    margin-top: 6rem;
+    font-family: 'Lato', sans-serif;
+}
+.about_cards{
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+@media screen and (max-width: 1400px) {
+    .about_cards{
+        justify-content: center;
+    }
+    .about>h2{
+        text-align: center;
+    }
+}
+@media screen and (max-width: 1400px) {
+    .about{
+        margin: 2rem;
+    }
+}

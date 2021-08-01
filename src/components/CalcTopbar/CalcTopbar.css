@@ -1,0 +1,91 @@
+.top{
+    display: flex;
+    align-items: center;
+    background: gold;
+    justify-content: space-between;
+    padding: 0.5rem 3rem;
+}
+
+.top1{
+    display: flex;
+    align-items: center;
+}
+.menu{
+    font-size: 2em;
+    color: teal;
+    cursor: pointer;
+}
+.top1>p{
+    color: teal;
+}
+.top>button{
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+    border: none;
+    background: teal;
+    color: white;
+    border-radius: 0.5rem;
+    font-size: 1em;
+}
+
+.calcSidebar>.open{
+    list-style: none;
+    border-bottom: 1px solid gray;
+    display: flex;
+    flex-wrap: wrap;
+}
+.close{
+    display: none;
+}
+.calcSidebar>ul li{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin: 1rem 1rem ;
+    padding-right: 1rem;
+    border-right: 4px solid steelblue;
+}
+.calcSidebar>ul li:last-child{
+    border-right: 0 solid rgb(4, 121, 14);
+}
+.icon1{
+    font-size: 35px;
+    cursor: pointer;
+    color: rgb(32, 72, 105);
+}
+.icon2{
+    font-size: 35px;
+    cursor: pointer;
+    color: rgb(121, 96, 64);
+}
+.icon3{
+    font-size: 30px;
+    cursor: pointer;
+    color: rgb(28, 58, 28);
+}
+.icon4{
+    font-size: 30px;
+    cursor: pointer;
+    color: rgb(72, 82, 72);
+}
+.icon5{
+    font-size: 35px;
+    cursor: pointer;
+    color: rgb(95, 74, 21);
+}
+.icon6{
+    font-size: 35px;
+    cursor: pointer;
+    color: rgb(21, 44, 95);
+}
+.calcSidebar>ul{
+    background: teal;
+}
+.calcSidebar>ul li>span{
+    font-size: 20px;
+    margin-left: 1rem;
+    color: gold;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+

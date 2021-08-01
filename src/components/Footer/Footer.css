@@ -1,0 +1,11 @@
+.footer{
+    background: rgba(8, 56, 99, 0.466);
+    position: absolute;
+    bottom: 0;
+}
+.footer>small{
+    color: gold;
+    font-size: 2em;
+    padding: 3rem;
+    
+}

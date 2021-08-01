@@ -21,7 +21,7 @@ function CalcSidebar() {
                     <AiOutlineMenuUnfold className="menu" onClick={showSidebar}/>
                     <p>Select Category</p>
                 </div>
-                <button><Link className="link" to="/">back</Link></button>
+                {/* <button><Link className="link" to="/">back</Link></button> */}
             </div>
             <ul className={name}>
                 <StateConsumer>

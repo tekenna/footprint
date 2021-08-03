@@ -1,11 +1,6 @@
 .footer{
-    background: rgba(8, 56, 99, 0.466);
-    position: absolute;
-    bottom: 0;
-}
-.footer>small{
-    color: gold;
-    font-size: 2em;
-    padding: 3rem;
-    
+    background: rgba(12, 2, 31, 0.9);
+    text-align: center;
+    padding: 1rem 0;
+    color: rgb(110, 81, 6);
 }

@@ -1,0 +1,15 @@
+
+.acol2>h2{
+    text-transform: capitalize;
+}
+.cards{
+    display: flex;
+    margin-top: 3rem;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-between;
+}
+.single_card{
+    margin-bottom: 3rem;
+    margin-right: 1rem;
+}

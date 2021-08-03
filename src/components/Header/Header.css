@@ -1,0 +1,81 @@
+.header{
+    background: url("https://i.cdnraw.com/previews/downloads/d/d/b/p-dark-leaf-water-drops-dbIkCVFvpa-1.jpg");
+    background-repeat: none;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: 5% 95%;
+    color: white;
+}
+.col2{
+    display: grid;
+    padding: 5rem 0;
+    grid-template-rows: 90% 10%;
+}
+.htext{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-transform: capitalize;
+}
+.htext span{
+    font-size: 6.5rem;
+    font-weight: 900;
+}
+.hmain{
+    color: turquoise;
+    text-transform: uppercase;
+}
+.hsub{
+    color:  rgb(110, 81, 6);
+}
+.hbase{
+    padding: 2rem 0
+}
+.hbase>p{
+    font-size: 1.5rem;
+}
+.hbase>p>span{
+    color: rgb(110, 81, 6);
+}
+@media screen and (max-width: 1400px) {
+    .htext span{
+        font-size: 6rem;
+    }
+    .hbase>p{
+        font-size: 0.8rem;
+    }
+}
+@media screen and (max-width: 1300px) {
+    .htext span{
+        font-size: 5.5rem;
+    }
+}
+@media screen and (max-width: 1250px) {
+    .htext span{
+        font-size: 5rem;
+    }
+    .hbase>p{
+        font-size: 0.7rem;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .htext span{
+        font-size: 4.5rem;
+    }
+    
+}
+@media screen and (max-width: 700px) {
+    .htext span{
+        font-size: 4rem;
+    }
+    
+}
+@media screen and (max-width: 500px) {
+    .htext span{
+        font-size: 3rem;
+    }
+    
+}

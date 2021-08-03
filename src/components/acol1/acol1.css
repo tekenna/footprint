@@ -1,0 +1,50 @@
+.acol1{
+    width: 30rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.acol1_sect{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+}
+.acol1_title>h3{
+    text-transform: uppercase;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    font-weight: 600;
+    padding: 0.4rem;
+}
+.acol1_sect>img{
+    width: 100%;
+    margin: 1.5rem 0;
+}
+.sect_p{
+    line-height: 1.5rem;
+    font-weight: 550;
+}
+.acol1_list{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+    flex-wrap: wrap;
+    line-height: 1.5rem;
+}
+.acol1_listItem{
+    text-transform: uppercase;
+    font-weight: 550;
+}
+.acol1_btn{
+    margin-top: 1.5rem;
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: 0.3rem;
+}
+@media screen and (max-width: 900px) {
+    .acol1{
+        width: 100%;
+    }
+}

@@ -1,5 +1,5 @@
 import './App.css';
-// import Home from "./pages/Home/Home"
+import Home from "./pages/home/Home"
 import Calculators from './pages/Calcbody/Calcbody';
 import {BrowserRouter as Router, Switch, Route } from "react-router-dom"
 
@@ -8,8 +8,8 @@ function App() {
     <Router>
       <div className="app">
         <Switch>
-          {/* <Route path="/" exact component={Home} /> */}
-          <Route path="/" component={Calculators} />
+          <Route path="/" exact component={Home} />
+          <Route path="/calculator" component={Calculators} />
         </Switch>
       </div>
     </Router>

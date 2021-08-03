@@ -1,14 +1,13 @@
 import React from 'react'
-import "./singleOff.css"
+import "./offsetCard.css"
 
-
-function SingleOff({src, content}) {
+function OffsetCard({src, content}) {
     return (
-        <div className="singleOff">
+        <div className="o_card">
             <img src={src} alt="" />
             <p>{content}</p>
         </div>
     )
 }
 
-export default SingleOff
+export default OffsetCard

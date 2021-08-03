@@ -1,0 +1,29 @@
+.o_card{
+    display: flex;
+    flex-direction: column;
+    max-width: 20rem;
+    max-height: 20rem;
+    margin-bottom: 1rem;
+}
+.o_card>img{
+    width: 100%;
+    height: 15rem;
+}
+.o_card>p{
+    font-size: 1rem;
+    font-weight: 550;
+    padding: 1rem 0;
+}
+@media screen and (max-width: 750px) {
+    .o_card{
+        width: 100%;
+        height: 14rem;
+    }
+    .o_card>img{
+        width: 100%;
+        height: 10rem;
+    }
+    .o_card>p{
+        padding: 0.5rem 0;
+    }
+}
